@@ -18,6 +18,10 @@ module.exports = {
       },
       height: {
         imgheight: '600px'
+      },
+      fontSize: {
+        mobile: '15px',
+        desktop: '12px'
       }
     },
   },
