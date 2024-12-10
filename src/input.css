@@ -6,13 +6,13 @@
     @apply max-h-60;
 }
 .color {
-    @apply text-tertiary hover:text-secondary;
+    @apply text-tertiary;
 }
 .icon {
     @apply transform rotate-180;
 }
 .attribution {
-    @apply mt-10 text-sm;
+    @apply mt-10 text-xs md:text-sm;
 }
 .attribution a {
     @apply text-a;

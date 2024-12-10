@@ -10,25 +10,26 @@
   <title>Frontend Mentor | FAQ Accordion Card</title>
  
 </head>
-<body class="max-w-bodyWidth w-full bg-primary grid place-items-center my-56 mx-auto">
+<body class="max-w-96 w-full bg-primary grid place-items-center my-28 mx-auto md:max-w-bodyWidth">
     <div class="container grid grid-cols-1 md:grid-cols-2 lg:gap-32 z-50 bg-white rounded-3xl">
         <div class="image relative">
-            <img src="/faq-accordion-card-main/images/bg-pattern-desktop.svg" alt="bg-pattern-desktop" class="absolute -top-20 -left-14 h-imgheight">
-            <img src="/faq-accordion-card-main/images/illustration-box-desktop.svg" alt="illustration-box-desktop" class="absolute top-36 lg:top-36 -left-20 z-30">
-            <img src="/faq-accordion-card-main/images/illustration-woman-online-desktop.svg" alt="illustration-woman-online-desktop" class="absolute top-8 md:-left-7 lg:-left-6 z-10">
+            <img src="/faq-accordion-card-main/images/bg-pattern-desktop.svg" alt="bg-pattern-desktop" class="absolute -top-40 md:top-12 -left-15 h-96">
+            <img src="/faq-accordion-card-main/images/illustration-box-desktop.svg" alt="illustration-box-desktop" class="absolute hidden md:block md:top-32 lg:top-36 -left-20 z-30">
+            <img src="/faq-accordion-card-main/images/illustration-woman-online-desktop.svg" alt="illustration-woman-online-desktop" class="absolute sm:-top-64 hidden md:block md:top-8 md:-left-7 lg:-left-6">
+            <img src="/faq-accordion-card-main/images/illustration-woman-online-mobile.svg" alt="illustration-woman-online-mobile" class="absolute -top-40 md:hidden">
         </div>
         
-       <div class="wrapper py-12 pr-16 lg:pr-28">
+       <div class="wrapper pt-56 px-10 pb-20 md:py-12 md:pr-10 lg:pr-28 lg:px-0">
 
         <header>
-          <h1 class="pb-4 font-bold text-3xl">FAQ</h1>
+          <h1 class="pb-4 font-bold text-3xl text-center md:text-start">FAQ</h1>
         </header>
 
       <div>
         <ul class="questions">
           <li class="cursor-pointer border-b-light border-b-2 py-4">
               <div class="flex justify-between items-center">
-                <h4 class="text-dark">How many team members can I invite?</h4>
+                <h4 class="text-dark hover:text-secondary">How many team members can I invite?</h4>
                 <img src="/faq-accordion-card-main/images/icon-arrow-down.svg" alt="icon-arrow-down" class="transition-transform ease-out duration-300">
               </div>
               <div class="max-h-0 overflow-hidden transition-[max-height] ease-out duration-300">
@@ -39,7 +40,7 @@
 
           <li class="cursor-pointer border-b-light border-b-2 py-4">
               <div class="flex justify-between items-center">
-                <h4 class="text-dark">What is the maximum file upload size?</h4>
+                <h4 class="text-dark hover:text-secondary">What is the maximum file upload size?</h4>
                 <img src="/faq-accordion-card-main/images/icon-arrow-down.svg" alt="icon-arrow-down" class="transition-transform ease-out duration-300">
               </div>
               <div class="max-h-0 overflow-hidden transition-[max-height] ease-out duration-300">
@@ -50,7 +51,7 @@
 
           <li class="cursor-pointer border-b-light border-b-2 py-4">
               <div class="flex justify-between items-center">
-                <h4 class="text-dark">How do I reset my password?</h4>
+                <h4 class="text-dark hover:text-secondary">How do I reset my password?</h4>
                 <img src="/faq-accordion-card-main/images/icon-arrow-down.svg" alt="icon-arrow-down" class="transition-transform ease-out duration-300">
               </div>
               <div class="max-h-0 overflow-hidden transition-[max-height] ease-out duration-300">
@@ -62,7 +63,7 @@
 
           <li class="cursor-pointer border-b-light border-b-2 py-4">
               <div class="flex justify-between items-center">
-                <h4 class="text-dark">Can I cancel my subscription?</h4>
+                <h4 class="text-dark hover:text-secondary">Can I cancel my subscription?</h4>
                 <img src="/faq-accordion-card-main/images/icon-arrow-down.svg" alt="icon-arrow-down" class="transition-transform ease-out duration-300">
               </div>
               <div class="max-h-0 overflow-hidden transition-[max-height] ease-out duration-300">
@@ -73,7 +74,7 @@
 
           <li class="cursor-pointer border-b-light border-b-2 py-4">
             <div class="flex justify-between items-center">
-              <h4 class="text-dark">Do you provide additional support?</h4>
+              <h4 class="text-dark hover:text-secondary">Do you provide additional support?</h4>
               <img src="/faq-accordion-card-main/images/icon-arrow-down.svg" alt="icon-arrow-down" class="transition-transform ease-out duration-300">
             </div>
             <div class="max-h-0 overflow-hidden transition-[max-height] ease-out duration-300">
