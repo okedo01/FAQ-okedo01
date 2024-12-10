@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.paras {
+    @apply max-h-60;
+}
+.color {
+    @apply text-tertiary hover:text-secondary;
+}
+.icon {
+    @apply transform rotate-180;
+}
+.attribution {
+    @apply mt-10 text-sm;
+}
+.attribution a {
+    @apply text-a;
+}

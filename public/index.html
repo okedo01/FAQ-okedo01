@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+ 
+</head>
+<body class="max-w-bodyWidth w-full bg-primary grid place-items-center my-56 mx-auto">
+    <div class="container grid grid-cols-1 md:grid-cols-2 lg:gap-32 z-50 bg-white rounded-3xl">
+        <div class="image relative">
+            <img src="/faq-accordion-card-main/images/bg-pattern-desktop.svg" alt="bg-pattern-desktop" class="absolute -top-20 -left-14 h-imgheight">
+            <img src="/faq-accordion-card-main/images/illustration-box-desktop.svg" alt="illustration-box-desktop" class="absolute top-36 lg:top-36 -left-20 z-30">
+            <img src="/faq-accordion-card-main/images/illustration-woman-online-desktop.svg" alt="illustration-woman-online-desktop" class="absolute top-8 md:-left-7 lg:-left-6 z-10">
+        </div>
+        
+       <div class="wrapper py-12 pr-16 lg:pr-28">
+
+        <header>
+          <h1 class="pb-4 font-bold text-3xl">FAQ</h1>
+        </header>
+
+      <div>
+        <ul class="questions">
+          <li class="cursor-pointer border-b-light border-b-2 py-4">
+              <div class="flex justify-between items-center">
+                <h4 class="text-dark">How many team members can I invite?</h4>
+                <img src="/faq-accordion-card-main/images/icon-arrow-down.svg" alt="icon-arrow-down" class="transition-transform ease-out duration-300">
+              </div>
+              <div class="max-h-0 overflow-hidden transition-[max-height] ease-out duration-300">
+                <p class="text-dark pt-2">You can invite up to 2 additional users on the Free plan. There is no limit on 
+                  team members for the Premium plan.</p>
+              </div>
+          </li>
+
+          <li class="cursor-pointer border-b-light border-b-2 py-4">
+              <div class="flex justify-between items-center">
+                <h4 class="text-dark">What is the maximum file upload size?</h4>
+                <img src="/faq-accordion-card-main/images/icon-arrow-down.svg" alt="icon-arrow-down" class="transition-transform ease-out duration-300">
+              </div>
+              <div class="max-h-0 overflow-hidden transition-[max-height] ease-out duration-300">
+                <p class="text-dark pt-2">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+              </div>
+          </li>
+          <hr>
+
+          <li class="cursor-pointer border-b-light border-b-2 py-4">
+              <div class="flex justify-between items-center">
+                <h4 class="text-dark">How do I reset my password?</h4>
+                <img src="/faq-accordion-card-main/images/icon-arrow-down.svg" alt="icon-arrow-down" class="transition-transform ease-out duration-300">
+              </div>
+              <div class="max-h-0 overflow-hidden transition-[max-height] ease-out duration-300">
+                <p class="text-dark pt-2">Click “Forgot password” from the login page or “Change password” from your profile page.
+                  A reset link will be emailed to you.</p>
+              </div>
+          </li>
+          <hr>
+
+          <li class="cursor-pointer border-b-light border-b-2 py-4">
+              <div class="flex justify-between items-center">
+                <h4 class="text-dark">Can I cancel my subscription?</h4>
+                <img src="/faq-accordion-card-main/images/icon-arrow-down.svg" alt="icon-arrow-down" class="transition-transform ease-out duration-300">
+              </div>
+              <div class="max-h-0 overflow-hidden transition-[max-height] ease-out duration-300">
+                <p class="text-dark pt-2">Yes! Send us a message and we’ll process your request no questions asked.</p>
+              </div>
+          </li>
+          <hr>
+
+          <li class="cursor-pointer border-b-light border-b-2 py-4">
+            <div class="flex justify-between items-center">
+              <h4 class="text-dark">Do you provide additional support?</h4>
+              <img src="/faq-accordion-card-main/images/icon-arrow-down.svg" alt="icon-arrow-down" class="transition-transform ease-out duration-300">
+            </div>
+            <div class="max-h-0 overflow-hidden transition-[max-height] ease-out duration-300">
+              <p class="text-dark pt-2">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+            </div>
+          </li>
+          <hr>
+        </ul>
+      </div>
+       </div>
+    </div> 
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/okedo01/FAQ-okedo01" target="_blank">Eliah &copy;right <span id="year"></span></a>.
+  </div>
+  <script>
+    const updateYear = () => {
+      const year = document.getElementById('year');
+      const now = new Date();
+
+      year.innerHTML = now.getFullYear();
+    }
+    updateYear();
+  </script>
+  <script src="./sandbox.js"></script>
+</body>
+</html>
