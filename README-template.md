@@ -9,7 +9,7 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 ### Links
 
 - Solution URL: [Solution URL](http://127.0.0.1:5500/public/index.html)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [My live site URL](https://faq-accordion-okedo01.netlify.app/)
 
 ## My process
 
@@ -19,7 +19,7 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [Tailwindcss](https://reactjs.org/) - CSS Framework
+- [Tailwindcss] - CSS Framework
 
 ## Author
 
